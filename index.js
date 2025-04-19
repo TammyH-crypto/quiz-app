@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import { quiz } from "../quizQs.js";
+import { quiz } from "./quizQs.js";
 
 const {playerName} = await inquirer.prompt({
   type: "input",

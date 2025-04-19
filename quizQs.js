@@ -2,18 +2,18 @@
 
 export const quiz = [
 {
-    question: "Whats the capital of France?",
-    choices: ["Berlin", "Madrid", "Paris", "Rome"],
-    answer: "Paris",
+    question: "Whats the most picked favorite color?",
+    choices: ["Red", "Green", "Blue", "Purple"],
+    answer: "Blue",
   },
   {
-    question: "Which language runs in the browser?",
-    choices: ["Java", "C", "Python", "Javascript"],
-    answer: "Javascript",
+    question: "Which language is most spoken in America?",
+    choices: ["Chinese", "Spanish", "Vietnamese", "English"],
+    answer: "Engilsh",
   },
   {
-    question: "What year did node.js first appear?",
-    choices: ["2005", "2000", "2001", "2024"],
-    answer: "2000",
+    question: "What is the most loved superhero?",
+    choices: ["Spiderman", "Batman", "Iron man", "Wonder woman"],
+    answer: "Batman",
   },
 ];
