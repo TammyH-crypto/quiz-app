@@ -1,5 +1,7 @@
 import inquirer from "inquirer";
-import { quiz } from "./quizQs.js";
+import { quiz } from "../../quizQs.js";
+export async function run () {
+  
 
 const {playerName} = await inquirer.prompt({
   type: "input",
@@ -30,3 +32,4 @@ for (let i = 0; i < quiz.length; i++) {
   }
 }
 console.log("You scored".score);
+}
