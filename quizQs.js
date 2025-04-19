@@ -1,7 +1,7 @@
 "use strict";
 
 export const quiz = [
-  {
+{
     question: "Whats the capital of France?",
     choices: ["Berlin", "Madrid", "Paris", "Rome"],
     answer: "Paris",
